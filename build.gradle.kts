@@ -26,6 +26,8 @@ repositories {
 dependencies {
 	implementation("org.apache.logging.log4j:log4j-api:2.7")
 	implementation("org.apache.logging.log4j:log4j-api:2.24.2")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc:3.2.6")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc:3.0.2")
 	implementation("org.springframework.boot:spring-boot-starter-groovy-templates")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.springframework.boot:spring-boot-starter-web")
